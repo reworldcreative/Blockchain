@@ -1606,9 +1606,19 @@ footer::after {
 
 }
 
+@media screen and (max-width: 500px) {
+    .modal-content {
+        padding: 30px;
+    }
+}
+
 @media screen and (max-width: 375px) {
     .logo {
         font-size: 32px;
+    }
+
+    .modal-content {
+        padding: 20px 10px;
     }
 
     .achievement-item {
@@ -1914,6 +1924,10 @@ footer::after {
 
     .work-item:nth-child(even)>.work-item-wrap>.work-icon {
         left: 0px;
+    }
+
+    .carousel {
+        padding: 93px 50px 66px;
     }
 
     .submitbtn {
